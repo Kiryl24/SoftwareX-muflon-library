@@ -4,7 +4,7 @@
 
 Python library for computations with intuitionistic fuzzy values and intuitionistic fuzzy relational systems of equations.
 
-**Current version: 1.4.0**
+**Library version: 1.4.0**
 
 ## Installation
 
