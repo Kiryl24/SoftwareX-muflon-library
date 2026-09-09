@@ -54,10 +54,10 @@ minimal_comp_solutions = find_minimal_component_solutions(
 
 maximal_nu_solutions = [1.0 - sol for sol in minimal_comp_solutions]
 
-print("Minimalne wektory części membership:")
+print("\nMembership minimal vectors:")
 for idx, sol in enumerate(minimal_mu_solutions):
     print(f" u_{idx+1} = {sol.flatten()}")
 
-print("\nOdpowiadające wektory non-membership uzyskane metodą dualności:")
+print("\nNon-membership vectors:")
 for idx, sol in enumerate(maximal_nu_solutions):
     print(f" z_{idx+1} = {sol.flatten()}")

@@ -14,7 +14,7 @@ The package can be installed using pip:
 pip install muflon
 ```
 
-Integrity of package can be checked using `test.py` script, based on unittest library, located in GitHub repository.
+Integrity of package can be checked using `test.py` script based on unittest library, located in tests directory.
 
 ## Aviable functions
 | Funtion                                                      | Description                                                                                        |
